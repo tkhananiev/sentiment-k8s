@@ -10,7 +10,7 @@ import java.util.Map;
 public class SentimentController {
 
     @GetMapping("/api/sentiment")
-    public Map<String, String> sentiment(@RequestParam String text) {
+    public Map<String, String> sentiment(@RequestParam("text") String text) {
         String result = "neutral";
 
         String lower = text.toLowerCase();
