@@ -97,13 +97,5 @@ curl "http://<INGRESS_IP>/api/sentiment?text=I%20love%20kubernetes"
 
 ````
 
-После этого:
-
-```bash
-git add README.md
-git commit -m "Add project README"
-git push
-````
-
 
 
