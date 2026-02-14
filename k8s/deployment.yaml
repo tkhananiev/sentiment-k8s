@@ -19,3 +19,7 @@ spec:
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
+          env:
+            - name: AI_URL
+              value: http://ai-service:8000
+
