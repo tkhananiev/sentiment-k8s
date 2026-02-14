@@ -95,7 +95,6 @@ curl "http://<INGRESS_IP>/api/sentiment?text=I%20love%20kubernetes"
 * Развёрнуто в Kubernetes с несколькими репликами
 * Настроены Service, Ingress и автоскейлинг
 
-````
 
 
 
