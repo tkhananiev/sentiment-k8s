@@ -3,10 +3,13 @@ kind: Service
 metadata:
   name: ai-service
   namespace: sentiment
+  labels:
+    app: ai-service
 spec:
   selector:
     app: ai-service
   ports:
-    - port: 8000
+    - name: http
+      port: 8000
       targetPort: 8000
   type: ClusterIP
