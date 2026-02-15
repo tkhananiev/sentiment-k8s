@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: ai
-          image: localhost:5000/ai-service:3.0.0
+          image: localhost:5000/ai-sentiment:2.0.1
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8000
